@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="styles-happyorsad.css">
+    <title>Happy or Sad</title>
+    <!-- Luke Lima
+        Assignment: Happy or Sad
+        Date: 3/12/25 -->
+</head>
+<body>
+    <header>
+        <h1>How are you feeling?</h1>
+    </header>
+    <!-- Add buttons to click on that say:
+        I'm feeling happy
+        I'm feeling sad
+        Then change the image to show an image-->
+
+    <button
+    onClick="document.getElementById('happyOrSad').src='happy.jpg'"> 
+    I'm feeling Happy 
+    </button>
+
+    <button  
+    onClick="document.getElementById('happyOrSad').src='sad.jpg'"> 
+    Sad
+    </button>
+
+    <button  
+    onClick="document.getElementById('happyOrSad').src='neutral.jpg'"> 
+    Neutral
+    </button>
+
+    <br><br>
+
+    <img id="happyOrSad" src="neutral.jpg" width="300px">
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
